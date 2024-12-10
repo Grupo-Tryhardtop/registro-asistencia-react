@@ -1,0 +1,13 @@
+.pie {
+   
+    width: 100%; /* Abarca el 100% del ancho de la pantalla */
+    background-color: white; /* Color de fondo (puedes cambiarlo) */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+.logo {
+    width: 100%; /* Asegúrate de que la imagen ocupe todo el ancho del cintillo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}

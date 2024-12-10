@@ -1,11 +1,13 @@
-.pie {
-    padding: 40px 0;
-    text-align: center;
-    background-size: cover;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    font-size: 14px;
-    z-index: 1;
-  }
+#footer {
+  width: 100%; /* Abarca el 100% del ancho de la pantalla */
+  text-align: center; /* Centra el contenido dentro del footer */
+  padding: 20px 0; /* Espaciado superior e inferior */
+  position: relative; /* Asegura que el footer se posicione correctamente */
+  bottom: 0; /* Coloca el footer en la parte inferior */
   
+}
+
+.logo {
+  max-width: 100%; /* Asegúrate de que la imagen no exceda el ancho del footer */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
