@@ -1,13 +1,10 @@
 // src/components/PersonasRegistradas.jsx
 import React from 'react';
-import './tabla.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 
 const buttons = () => {
   return (
-    <div className="container my-5">
+    <div className="container">
       <h1 className="text-center mb-4">Lista de Personas Registradas</h1>
       <div className="buttons">
         <label htmlFor="date" className="label-date">Asigna una fecha:</label>
@@ -15,7 +12,7 @@ const buttons = () => {
         <button id="descargar" className="btn btn-primary mb-2">Descargar CSV</button>
         <button id="descargar2" className="btn btn-primary mb-2">Descargar CSV del Día Actual</button>
       </div>
-      <div className="container mt-5">
+      <div className="mt-5">
         <h5 className="mb-4">Descargar Datos por Rango de Fechas</h5>
         <div className="mb-3">
           <label htmlFor="fechaInicio" className="form-label">Fecha de Inicio</label>
