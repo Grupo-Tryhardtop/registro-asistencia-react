@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import './tabla.css';
 
 const urlApi = "http://172.16.2.8:3001";
 

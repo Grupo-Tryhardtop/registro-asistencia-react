@@ -1,7 +1,6 @@
 #footer {
   width: 100%; /* Abarca el 100% del ancho de la pantalla */
   text-align: center; /* Centra el contenido dentro del footer */
-  padding: 20px 0; /* Espaciado superior e inferior */
   position: relative; /* Asegura que el footer se posicione correctamente */
   bottom: 0; /* Coloca el footer en la parte inferior */
   
