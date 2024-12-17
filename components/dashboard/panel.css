@@ -130,11 +130,12 @@ h1, .h1 {
 }
 
 .dashboard-nav {
-    min-width: 150px;
+    min-width: 270px;
     z-index: 1;
     position: fixed;
     left: 0;
     top: 0;
+    margin-top: 90px;
     bottom: 0;
     overflow: auto;
     background-color: #244e82;
@@ -175,7 +176,7 @@ h1, .h1 {
 }
 
 .dashboard-nav {
-    background-color: #0152b4;
+    background-color: #1d4490;
 }
 
 .dashboard-nav a {
@@ -204,8 +205,8 @@ h1, .h1 {
 
 .brand-logo i {
     color: #d2d1d1;
-    font-size: 27px;
-    margin-right: 10px;
+    font-size: 20px;
+    margin-right: 40px;
 }
 
 .dashboard-nav-list {
@@ -353,12 +354,11 @@ h1, .h1 {
 
 .menu-toggle i {
     font-size: 20px;
-    color: #244e82;
+    color: #a0a1a3;
 }
 
 .dashboard-toolbar {
     min-height: 84px;
-    background-color: #dfdfdf;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -382,9 +382,15 @@ h1, .h1 {
     background-color: rgba(236, 238, 239, 0.3);
 }
 
+
+
 @media (min-width: 992px) {
     .dashboard-app {
         margin-left: 238px;
+    }
+
+    .dashboard-nav{
+              margin-top: 70px
     }
 
     .dashboard-compact .dashboard-app {
@@ -397,6 +403,11 @@ h1, .h1 {
     .dashboard-content {
         padding: 15px 0px;
     }
+
+    .dashboard-nav{
+        margin-top: 70px
+}
+
 }
 
 @media (max-width: 992px) {
@@ -427,6 +438,7 @@ h1, .h1 {
 @media (min-width: 992px) {
     .dashboard-toolbar {
         left: 197px;
+        margin-top: 95px;
     }
 
     .dashboard-compact .dashboard-toolbar {

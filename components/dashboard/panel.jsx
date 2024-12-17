@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const Dashboard = () => {
-    const [isMobile,] = useState(window.matchMedia("(max-width: 990px)").matches);
+    const [isMobile,] = useState(window.matchMedia("(max-width: 990px)" ).matches);
     const [isNavVisible, setNavVisible] = useState(false);
     const [isCompact, setCompact] = useState(false);
 
@@ -12,7 +12,7 @@ const Dashboard = () => {
         if (isMobile) {
             setNavVisible(!isNavVisible);
         } else {
-            setCompact(!isCompact);
+            setCompact(!isCompact );
         }
     };
 
@@ -30,8 +30,8 @@ const Dashboard = () => {
                         <i className="fas fa-bars"></i>
                     </a>
                     <a className="brand-logo">
-                        <i className="fa-solid fa-house"></i>
-                        <h2>PANEL</h2>
+                        <i className="fa-solid fa-house"></i> Panel
+                       
                     </a>
                 </header>
                 <nav className="dashboard-nav-list">
