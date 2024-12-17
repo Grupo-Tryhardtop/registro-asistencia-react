@@ -83,7 +83,7 @@ const DescargarDatos = () => {
 
   return (
     <div className="container my-5">
-      <h1 className="text-center mb-4">Lista de Personas Registradas</h1>
+      <h2 className="text-center mb-4">Lista de Personas Registradas</h2>
       <div className="buttons">
         <label htmlFor="fecha" className="label-date">Asigna una fecha:</label>
         <input className="input-date" type="date" id="fecha" value={fecha} onChange={(e) => setFecha(e.target.value)} />
