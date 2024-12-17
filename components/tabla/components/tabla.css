@@ -1,3 +1,6 @@
+
+
+
 .table-responsive {
   width: 100%; /* Ancho del contenedor de la tabla */
   max-width: 1300px; /* Ancho máximo para la tabla */
@@ -5,6 +8,8 @@
   overflow-x: auto; /* Permite desplazamiento horizontal en pantallas pequeñas */
   border-radius: 0.5rem; /* Bordes redondeados para el contenedor */
 }
+
+
 
 .table-header {
   background-color: #007bff; /* Color de fondo del encabezado */
